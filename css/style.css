@@ -13,6 +13,14 @@ a{
   text-decoration: none;
 }
 
+
+p{
+  margin: 00.7rem;
+}
+
+.text-primary{
+  color: aqua;
+}
 /* code for the navbar */
 #navbar{
   background: rgb(243, 135, 198);
@@ -38,7 +46,7 @@ ul{
 }
 
 #navbar ul li a:hover{
-  background: rgb(77, 224, 101);
+  background: rgb(94, 224, 241);
   border-radius: 5px;
 }
 
@@ -66,11 +74,17 @@ ul{
   background-color: rgba(0, 0 0, 0.75rem)
 }
 
-.leading{
+.l-leading {
 font-size: 2rem;
 margin-bottom: 0.10rem;
 line-height: 1.1;
 }
+
+.l-leading {
+  font-size: 4rem;
+  margin-bottom: 0.10rem;
+  line-height: 1.1;
+  }
 
 .lead{
   font-size: 1.3rem;
@@ -82,15 +96,49 @@ line-height: 1.1;
   margin: 0 auto;
   display: inline-block;
   color: #fff;
-  background: orange;
+  background: rgb(245, 58, 167);
   padding: 0.5rem 2rem;
   width: 180px;
   border: none;
   border-radius: 5px;
 }
 .btn:hover{
-  background: blue;
+  background: rgb(73, 219, 230);
 }
+
+.bg-dark{
+  background: #000;
+  color: #fff;
+}
+
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+
+}
+
+.text-center{
+  text-align: center;
+
+}
+
+.py-1{
+  padding: 1.5rem 0;
+}
+
+
+.py-2{
+  padding: 2rem 0;
+}
+
+
+.py-3{
+  padding: 3rem 0;
+}
+
+
 
 /* section: what we do */
 .items{
@@ -171,4 +219,30 @@ line-height: 1.1;
   margin: auto 15px;
   width: 90px;
   height: 90px;
+}
+
+/* section: contact */
+.bg-primary{
+  background: #fff;
+  color: #000;
+}
+
+#contact{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contact .contact-form .form-group{
+  margin: 0.75rem;
+}
+
+#contact .contact-form label{
+  display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
